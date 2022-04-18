@@ -12,13 +12,13 @@
 
         <form action = "{{ request.path }}" method = "post">
             <label for = "name">Name</label><br>
-            <input type = "text" name = "name" placeholder = "Name" /><br>
+            <input type = "text" name = "name" placeholder = "Name"><br>
             <label for = "city">City</label><br>
-            <input type = "text" name = "city" placeholder = "city" /><br>
+            <input type = "text" name = "city" placeholder = "City"><br>
             <label for = "addr">addr</label><br>
-            <textarea name = "addr" placeholder = "addr"></textarea><br>
+            <textarea name = "addr" placeholder = "Addr"></textarea><br>
             <label for = "PIN">PIN</label><br>
-            <input type = "text" name = "pin" placeholder = "pin" /><br>
+            <input type = "text" name = "pin" placeholder = "Pin"><br>
             <input type = "submit" value = "Submit">
             <!-- Adicionei um botão de cancelar para voltar a página inicial. -->
             <input type = "button" value = "Cancel" onclick=history.back()>
